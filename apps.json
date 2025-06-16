@@ -1,9 +1,0 @@
-[
-  {
-    "id": "com.example.app1",
-    "name": "Ứng dụng Mẫu",
-    "desc": "Ứng dụng thử nghiệm chia sẻ APK",
-    "icon": "https://via.placeholder.com/100",
-    "apk": "https://example.com/app1.apk"
-  }
-]
