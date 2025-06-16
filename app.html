@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết ứng dụng</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" id="app-description" content="">
+  <meta property="og:title" id="og-title" content="">
+  <meta property="og:description" id="og-desc" content="">
+  <meta property="og:image" id="og-img" content="">
+</head>
+<body>
+  <header>
+    <h1 id="app-title">Chi tiết ứng dụng</h1>
+    <nav><a href="/">⬅ Quay lại</a></nav>
+  </header>
+
+  <section id="app-details">
+    <p>Đang tải chi tiết...</p>
+  </section>
+
+  <section>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = window.location.search;
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://YOUR_DISQUS_SHORTNAME.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+  </section>
+
+  <footer>© 2025 APK Site</footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
