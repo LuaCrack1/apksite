@@ -1,0 +1,1 @@
+// JS for app detail loading

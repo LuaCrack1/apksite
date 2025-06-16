@@ -1,0 +1,1 @@
+// JS for loading apps on main page
